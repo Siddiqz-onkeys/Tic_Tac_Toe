@@ -15,6 +15,7 @@ This is a simple Tic Tac Toe game built using Python's Tkinter library. It allow
 
 ## How It Works
 -1.The game initializes a 3x3 button grid using Tkinter.
+
 -2.Each button represents a cell and updates to show the current player's mark ("X" or "O") on click.
 -3.A global list `board` tracks the state of the game.
 -4.After every move, the `check_winner()` function checks rows, columns, and diagonals for a win or tie.
